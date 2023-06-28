@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
     <title>Vet Ada</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <!-- Cabeçãlho -->
-    <header class="header-content" id="header">        
-                <div class="logo-header">
-                    <img class="logo" src="./assets/img/logo.png" alt="Logo Start Vet">   
-                </div>
-                         
-            <nav class="menu-vet">
-                    <a class="menu-item active" href="#">Home</a></li>
-                    <a class="menu-item" href="pet.html">Petshop</a></li>
-                   <a class="menu-item" href="contato.html">Contato</a></li>
-            </nav>
+    <header class="header-content" id="header">
+        <div class="logo-header">
+            <img class="logo" src="./assets/img/logo.png" alt="Logo Start Vet">
+        </div>
+
+        <nav class="menu-vet">
+            <a class="menu-item active" href="#">Home</a></li>
+            <a class="menu-item" href="pet.html">Petshop</a></li>
+            <a class="menu-item" href="contato.html">Contato</a></li>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+        </nav>
         </div>
     </header>
     <!-- Conteúdo Principal -->
@@ -28,8 +37,63 @@
         <div class="banner">
             <img src="./assets/img/banner.png" alt="">
         </div>
+        <section class="container-content">
+            <div class="card">
+                <img class="card-img-top" src="./assets/img/cirurgia.jpg" alt="2 cachorros com roupas cirurgicas    ">
+                <div class="card-body">
+                    <h3>Cirurgias</h3>
+                    <p class="card-text">Nosso centro cirúrgico conta com equipamentos de ponta e uma equipe altamente
+                        capacitada para as mais diversas cirurgias.</p>
+                    <button type="button" class="btn btn-primary">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="./assets/img/consulta.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h3>Clinicas</h3>
+                    <p class="card-text">Possuímos 3 consultórios, sendo um deles para atendimentos clínico, o outro
+                        para exames e o terceiro exclusivos para felinos e vacinação para filhotes</p>
+                    <button type="button" class="btn btn-primary">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="./assets/img/pet shop.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h3>Petshop</h3>
+                    <p class="card-text">Nossas clinicas também contam com uma rede de petshop com diversos itens como
+                        as mais variadas rações, brinquedos e mimos.</p>
+                    <button type="button" class="btn btn-primary">Saiba Mais</button>
+                </div>
+            </div>
+        </section>
+        <section class="sobre">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="banner-main" src="./assets/img/petshop2.png" alt="">
+                    </div>
+                    <div class="col-6 content-main">
+                        <h2>Sobre nós</h2>
+                        <p>A clínica veterinária Start Vet começou sua história em dezembro de 2021, mas os
+                            profissionais que atuam já possuem anos de experiência.
+                            <br><br>
+                            A clínica, que veio no meio de uma pandemia, surgiu para oferecer atendimento veterinário e
+                            embelezamento pet para os cães e gatos da Zona Norte de São Paulo.
+                            <br><br>
+                            Desde então, é notável o crescimento da clínica juntamente com a dedicação dos seus
+                            profissionais. Outro fator importante, é trabalhar com uma região que lida com os pets como
+                            “um membro da família”, e que não medem esforços para oferecer amor e qualidade de vida aos
+                            “filhos de 4 patas”.
+                        </p>
+                        <button type="button" class="btn btn-primary">Saiba Mais</button>
+                    </div>
+                </div>
+        </section>
     </main>
     <!-- Rodapé-->
     <footer></footer>
 </body>
+
 </html>
